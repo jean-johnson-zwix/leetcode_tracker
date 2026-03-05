@@ -17,3 +17,4 @@ A running log of every problem solved, organized by pattern.
 | Search in Rotated Sorted Array (#33) | Binary Search | Modified binary search; identify sorted half, then check target range | O(log n) | O(1) | ⭐⭐⭐ |
 | Diameter of Binary Tree (#543) | DFS | Use a helper to return depth; track max diameter as `left_depth + right_depth` | O(n) | O(n) | ⭐⭐⭐ |
 | Balanced Binary Tree (#110) | DFS | Recursively compute height and check balance at each node; use non-local flag for overall balance | O(N) | O(H) | ⭐⭐⭐ |
+| First Bad Version (#278) | Binary Search | Find first true using `while left < right`, `right = mid` if true, `left = mid + 1` if false | O(log n) | O(1) | ⭐⭐⭐ |
